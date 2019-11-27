@@ -1,6 +1,7 @@
-h1{
-  color: #0000FF;
+title {
+  color: black;
+  font-size:150%;
+  margin: 100px;
+  font-family: Verdana;
 }
-h2{
-  color: #00CCFF;
-}
+
