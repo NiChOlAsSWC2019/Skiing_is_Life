@@ -1,9 +1,21 @@
-h1 {
-  color: lightblue;
-  background-color: white;
+body {
+  background-color: lightgrey;
+  
+
+h1, h2 {
+  color: #ff4411;
+  background-color: lightblue;
   text-align: center;
   margin: 100px;
-  font-family: Verdana, Arial;
-  font-size: 200px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5em;
 }
 
+p {
+  color: 222;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  line-height: 24px;
+  }
+  
+  
