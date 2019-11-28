@@ -1,27 +1,33 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   background-color: #FDF5E6;
+  margin: 20px;
+  padding: 0;
 }
   
 
 h1 {
   color: #ff4411;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
+  font-size: 1.5em;
   text-align: center;
   margin: 50 0 50px;
 }
 
 h2 {
   color: #ff4411;
-  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   text-align: center;
   margin: 50 0 50px;
 }
 
+h3 {
+  color: #ff4411;
+  font-size: 32px;
+  text-align: center;
+  margin: 50 0 50px;
+
 p {
   color: #222;
-  font-family: 'Open Sans' sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
