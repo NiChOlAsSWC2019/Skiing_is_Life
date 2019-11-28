@@ -8,6 +8,7 @@ body {
 .center {
   body-align: center;
   border: 10px solid green;
+  margin: 200px;
 }
   
 
