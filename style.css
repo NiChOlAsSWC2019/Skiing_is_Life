@@ -5,24 +5,24 @@ body {
 
 h1 {
   color: #ff4411;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 64px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
   text-align: center;
   margin: 50 0 50px;
 }
 
 h2 {
   color: #ff4411;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
   text-align: center;
   margin: 50 0 50px;
 }
 
 p {
-  color: 222;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 18px;
+  color: #222;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 16px;
   line-height: 24px;
 }
   
