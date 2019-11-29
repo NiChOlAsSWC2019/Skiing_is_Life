@@ -74,18 +74,17 @@ body {
 }
 
 #whatiscc {
-  width: 400px;
+  width: 390px;
   height: auto;
   margin: 0 10 10 0px;
   float: left;
 }
 
 #indexpic1 {
-  width: 390px;
+  width: 400px;
   height: auto;
   margin: 10;
   float: right;
-  vertical-align: middle;
 }
 
  
