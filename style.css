@@ -73,10 +73,8 @@ body {
   padding: 0px;
 }
 
-#section1 {
-  width: 830px;
-  height: 600;
-  background-color: lightblue;
+#section1:after{
+  content: "HELLO"'
 }
 
 #whatiscc {
