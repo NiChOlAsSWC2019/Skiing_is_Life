@@ -74,7 +74,7 @@ body {
 }
 
 #section1:after{
-  content: "HELLO";
+  content: "";
   display: block;
   clear: both;
 }
@@ -82,19 +82,19 @@ body {
 #whatiscc {
   width: 380px;
   height: auto;
-  margin: 0 10 10 0px;
+  margin: 0 20 0 0px;
   float: left;
 }
 
 #indexpic1 {
   width: 440px;
   height: auto;
-  margin: 30 0 10 0px;
+  margin: auto;
   float: right;
 }
 
 .content {
-  padding: 10px;
+  padding: 10 0 10 0px;
   clear: both;
 }
 
