@@ -62,7 +62,7 @@
 
 .container {
   background-color: white;
-  width:800px;
+  width:820px;
   margin: 0 auto;
 }
 
@@ -76,13 +76,16 @@ body {
 #whatiscc {
   width: 400px;
   height: auto;
+  margin: 0 10 10 0
   float: left;
 }
 
 #indexpic1 {
   width: 400px;
   height: auto;
+  margin: 0 0 10 10
   float: right;
+  vertical-align: middle;
 }
 
  
