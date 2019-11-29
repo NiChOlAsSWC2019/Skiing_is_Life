@@ -106,6 +106,12 @@ body {
   background-color: red;
 }
 
+#mail {
+  height: 800px;
+  background-color: red;
+  vertical-align: middle;
+}
+
 h1 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: black;
