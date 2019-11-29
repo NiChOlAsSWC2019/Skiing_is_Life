@@ -97,6 +97,7 @@ body {
 .content {
   padding: 10 0 10 0px;
   clear: both;
+  text-indent: 30px;
 }
 
 #placestitle {
