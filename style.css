@@ -76,17 +76,20 @@ body {
 #whatiscc {
   width: 380px;
   height: auto;
-  margin: 0 10 10 0px;
+  margin: 0 0 10 0px;
   float: left;
 }
 
 #indexpic1 {
-  width: 430px;
+  width: 440px;
   height: auto;
-  margin: 5 0 10 0px;
+  margin: 10 0 10 0px;
   float: right;
 }
 
+.paragraph {
+  width: 100%
+}
  
 h1 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
