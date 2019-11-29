@@ -88,7 +88,8 @@ body {
 }
 
 .paragraph {
-  width: 100%
+  width: 100%;
+  background-color: Tomato;
 }
  
 h1 {
