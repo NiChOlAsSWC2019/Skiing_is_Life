@@ -81,9 +81,9 @@ body {
 }
 
 #indexpic1 {
-  width: 400px;
+  width: 390px;
   height: auto;
-  margin: 0 0 10 10
+  margin: 10;
   float: right;
   vertical-align: middle;
 }
