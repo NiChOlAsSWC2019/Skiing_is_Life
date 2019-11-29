@@ -74,7 +74,9 @@ body {
 }
 
 #section1:after{
-  content: "HELLO"'
+  content: "HELLO";
+  display: block;
+  clear: both;
 }
 
 #whatiscc {
