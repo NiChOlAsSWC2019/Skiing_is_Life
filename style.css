@@ -100,9 +100,10 @@ body {
 
 #placestitle {
   width: 1000px;
-  font-size: 40px;
+  font-size: 46px;
   text-align:center;
   margin: 30px;
+  background-color: red;
 }
 
 h1 {
