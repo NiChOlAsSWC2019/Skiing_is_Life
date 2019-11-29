@@ -73,6 +73,12 @@ body {
   padding: 0px;
 }
 
+#section1 {
+  width: 830px;
+  height: auto;
+  margin: 20px;
+}
+
 #whatiscc {
   width: 380px;
   height: auto;
@@ -88,7 +94,7 @@ body {
 }
 
 #typesofski {
-  width: 820px;
+  width: 830px;
   background-color: #ff6600;
 }
  
