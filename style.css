@@ -64,10 +64,9 @@
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
   background-color: #FDF5E6; 
-  margin: 20px;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .center {
@@ -79,26 +78,24 @@ body {
 
  
 h1 {
-  color: #ff4411;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
   font-size: 40px;
   text-align: center;
-  border: 5px lightgray;
   margin: 40 0 40px;
 }
 
 h2 {
-  color: #ff4411;
+  color: black;
   font-size: 36px;
   text-align: left;
-  border: 5px lightgray;
   margin: 40 0 40px;
 }
 
 h3 {
-  color: #ff4411;
+  color: black;
   font-size: 32px;
   text-align: left;
-  border: 5px lightgray;
   margin: 40 0 40px;
 }
 
