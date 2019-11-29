@@ -88,7 +88,7 @@ body {
 
 #indexpic1 {
   width: 440px;
-  height: 440px;
+  height: auto;
   margin: 30 0 10 0px;
   float: right;
 }
