@@ -5,14 +5,14 @@
   text-decoration: none;
 }
   
-.header{
+.header {
   width: 100%;
-  height: 100px;
+  height: 120px;
   display: block;
   background-color: #0B0B0B;
 }
 
-.inner_header{
+.inner_header {
   width: 1000px;
   height: 100%;
   display: block;
@@ -26,7 +26,7 @@
   float:left;
 }
 
-h1.logos{
+.logos h1 {
   color: white;
   height: 100%;
   display: table-cell;
@@ -36,25 +36,30 @@ h1.logos{
   font-weight: 200;
 }
 
-.navigation{
+.logos h1 span {
+  font-family: Didot, serif;
+  font-weight: 900;
+}
+
+.navigation {
   float: right;
   height: 100%;
 }
   
-a.navigation{
+.navigation a {
   height: 100%;
   display: table;
   float: left;
   padding: 0px 20px;
 }
 
-.navigation a li{
+.navigation a li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 
@@ -74,6 +79,7 @@ body {
   padding: 10px;
 }
 
+ 
 h1 {
   color: #ff4411;
   font-size: 40px;
