@@ -64,6 +64,7 @@
   background-color: white;
   width:830px;
   margin: 0 auto;
+  padding: 30 0 30 0;
 }
 
 
@@ -141,7 +142,7 @@ h3 {
 p {
   color: #222;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
 }
   
   
