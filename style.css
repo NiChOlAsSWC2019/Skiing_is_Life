@@ -100,7 +100,7 @@ body {
   display: block;
   width: 440px;
   height: auto;
-  margin: auto 0 auto 0;
+  margin: auto 0;
   float: right;
   background-color: red;
 }
