@@ -92,12 +92,13 @@ body {
   display: block;
   width: 440px;
   height: auto;
-  margin: auto;
+  margin: auto 0 auto 0;
   float: right;
+  background-color: red;
 }
 
 .content {
-  padding: 10 0 10 0px;
+  padding: 50 0 50 0px;
   clear: both;
   text-indent: 30px;
 }
