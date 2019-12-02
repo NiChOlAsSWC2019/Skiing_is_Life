@@ -74,6 +74,14 @@ body {
   padding: 0px;
 }
 
+
+.section1 {
+  width: 830px;
+  height: 600px;
+  display: block;
+  background-color: red;
+}
+
 #section1:after{
   content: "";
   display: block;
