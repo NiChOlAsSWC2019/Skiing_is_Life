@@ -89,6 +89,7 @@ body {
 }
 
 #indexpic1 {
+  display: block;
   width: 440px;
   height: auto;
   margin: auto;
