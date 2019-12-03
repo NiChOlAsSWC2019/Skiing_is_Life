@@ -80,6 +80,7 @@ body {
   height: 600px;
   display: block;
   background-color: red;
+  padding: 40 0 40 0;
 }
 
 #section1:after{
@@ -99,7 +100,6 @@ body {
 #indexpic1 {
   display: block;
   width: 440px;
-  height: auto;
   margin: auto 0;
   float: right;
   background-color: red;
