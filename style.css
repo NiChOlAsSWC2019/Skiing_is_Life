@@ -44,7 +44,7 @@
   height: 100%;
 }
 
-.navigation:hover {
+.navigation a li:hover {
   background-color: white;
   color: black;
   font-size: 28px;
