@@ -43,7 +43,14 @@
   float: right;
   height: 100%;
 }
-  
+
+.navigation:hover {
+  background-color: white;
+  color: black;
+  font-size: 28px;
+  transition: 0.5s;
+}
+
 .navigation a {
   height: 100%;
   display: table;
@@ -72,6 +79,12 @@ body {
   background-color: white; 
   margin: 0px;
   padding: 0px;
+}
+
+.ccheader {
+  display: block;
+  background-color: red;
+  margin: 40 0px:
 }
 
 
