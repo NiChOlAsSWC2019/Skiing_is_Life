@@ -113,9 +113,8 @@ body {
 #indexpic1 {
   display: block;
   width: 440px;
-  margin: auto 0;
+  margin: 59 0;
   float: right;
-  background-color: red;
 }
 
 .content {
