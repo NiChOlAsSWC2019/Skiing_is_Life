@@ -77,10 +77,10 @@ body {
 
 .section1 {
   width: 830px;
-  height: 600px;
+  height: auto;
   display: block;
   background-color: red;
-  padding: 40 0 40 0;
+  padding: 80 0 80 0;
 }
 
 #section1:after{
