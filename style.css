@@ -98,7 +98,7 @@ body {
   padding: 15px 0px;
 }
 
-#section1:after{
+.section1:after{
   content: "";
   display: block;
   clear: both;
