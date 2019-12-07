@@ -70,9 +70,7 @@
   background-color: white;
   width:830px;
   margin: 0 auto;
-  
 }
-
 
 body {
   background-color: white; 
@@ -89,11 +87,13 @@ body {
   text-indent: 30px;
 }
 
-#section1 {
+#section1,
+#section2,
+#section3{
   width: 830px;
   height: auto;
   display: block;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px;
 }
 
 #section1:after{
@@ -101,6 +101,7 @@ body {
   display: block;
   clear: both;
 }
+
 
 #whatiscc {
   width: 380px;
