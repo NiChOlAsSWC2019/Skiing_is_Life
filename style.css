@@ -70,7 +70,7 @@
   background-color: white;
   width:830px;
   margin: 0 auto;
-  padding: 30 0 30 0;
+  
 }
 
 
@@ -83,7 +83,7 @@ body {
 .ccheader {
   display: block;
   background-color: red;
-  margin: 40px 0px:
+  margin: 0px 0px:
 }
 
 
@@ -92,7 +92,7 @@ body {
   height: auto;
   display: block;
   background-color: red;
-  padding: 80px 0px 80px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 #section1:after{
@@ -104,7 +104,7 @@ body {
 #whatiscc {
   width: 380px;
   height: auto;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 10px 0px 0px;
   float: left;
   text-indent: 30px;
 }
@@ -117,9 +117,8 @@ body {
 }
 
 .content {
-  padding: 50px 0px 50px 0px;
+  padding: 30px 0px;
   clear: both;
-  text-indent: 30px;
 }
 
 #placestitle {
@@ -157,7 +156,6 @@ h3 {
   color: black;
   font-size: 32px;
   text-align: left;
-  margin: 40 0 40px;
 }
 
 p {
