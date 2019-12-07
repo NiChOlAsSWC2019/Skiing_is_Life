@@ -45,9 +45,9 @@
 }
 
 .navigation a li:hover {
-  background-color: white;
-  color: black;
+  color: white;
   transition: 0.5s;
+  transform: translateY(-5px) scale(1.05);
 }
 
 .navigation a {
@@ -61,9 +61,13 @@
   display: table-cell;
   vertical-align: middle;
   height: 60px;
-  color: white;
+  color: #c5c5c5;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
+}
+
+.whiteh {
+  color: white;
 }
 
 .container {
