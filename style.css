@@ -57,6 +57,10 @@
   padding: 0px 20px;
 }
 
+#whiteh, #whitec, #whiteg, #whitem{
+  color: white;
+}
+
 .navigation a li {
   display: table-cell;
   vertical-align: middle;
@@ -64,10 +68,6 @@
   color: #c5c5c5;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
-}
-
-.whiteh{
-  color: white;
 }
 
 .container {
