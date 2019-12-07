@@ -83,7 +83,7 @@ body {
 .ccheader {
   display: block;
   background-color: red;
-  margin: 40 0px:
+  margin: 40px 0px:
 }
 
 
@@ -92,7 +92,7 @@ body {
   height: auto;
   display: block;
   background-color: red;
-  padding: 80 0 80 0;
+  padding: 80px 0px 80px 0px;
 }
 
 #section1:after{
@@ -104,7 +104,7 @@ body {
 #whatiscc {
   width: 380px;
   height: auto;
-  margin: 0 20 0 0px;
+  margin: 0px 20px 0px 0px;
   float: left;
   text-indent: 30px;
 }
@@ -112,12 +112,12 @@ body {
 #indexpic1 {
   display: block;
   width: 440px;
-  margin: 59 0;
+  margin: 59px 0px;
   float: right;
 }
 
 .content {
-  padding: 50 0 50 0px;
+  padding: 50px 0px 50px 0px;
   clear: both;
   text-indent: 30px;
 }
