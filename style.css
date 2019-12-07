@@ -47,7 +47,7 @@
 .navigation a li:hover {
   color: white;
   transition: 0.5s;
-  transform: translateY(-5px) scale(1.05);
+  transform: translateY(-3px) scale(1.05);
 }
 
 .navigation a {
@@ -66,7 +66,7 @@
   font-size: 24px;
 }
 
-.whiteh {
+#whiteh {
   color: white;
 }
 
