@@ -151,7 +151,7 @@ body {
   background-color:white;
 }
 
-.skicontainer {
+.skicontainer, bootcontainer {
   width: 830px;
   background-color: azure;
   margin: 40px auto 0px;
