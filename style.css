@@ -279,8 +279,14 @@ body {
   clear: both;
 }
 
+#whereintro {
+  margin:70px 0px;
+  text-align: left;
+  font-size:48px;
+}
+
 #placestitle {
-  font-size: 42px;
+  font-size: 52px;
   text-align:center;
 }
 
