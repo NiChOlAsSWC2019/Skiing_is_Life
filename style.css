@@ -306,6 +306,7 @@ body {
 
 .placebox .placepic {
   display:block;
+  transition: transform 1s;
 }
 
 .placepic .fullwidth {
@@ -316,7 +317,16 @@ body {
  object-fit:cover;
  left: 50%;
  margin-top: 50px;
+ transition: transform 1s;
+ opacity: 0.8;
+ transform: scale(1.0)
 }
+
+.placepic:hover .fullwidth {
+  opacity:1;
+  transform: scale(0.9)
+}
+
 #contactlinks{
   height: 1000px;
 }
