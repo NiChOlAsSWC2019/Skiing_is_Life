@@ -286,10 +286,13 @@ body {
 }
 
 #placestitle {
-  font-size: 52px;
+  font-size: 45px;
   text-align:center;
   margin:0px;
   padding: 0px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border-bottom: 3px solid;
+  background-color: #FAFEFE;
 }
 
 .placebox{
