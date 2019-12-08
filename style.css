@@ -154,7 +154,7 @@ body {
 
 .skicontainer {
   width: 830px;
-  background-color: white;
+  background-color: azure;
   margin: 40px auto 0px;
   display: flex;
   flex-direction: row;
