@@ -163,12 +163,12 @@ body {
 
 .skicontainer .box {
   position: relative;
-  width: 405px;
-  height: 405px;
+  width: 395px;
+  height: 395px;
   background: red;
   box-sizing: border-box;
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
 }
 
 .skicontainer .box .imgbox {
