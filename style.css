@@ -163,45 +163,58 @@ body {
 
 .skicontainer .box {
   position: relative;
-  width: 415px;
-  height: 415px;
+  width: 405px;
+  height: 405px;
   background: red;
   box-sizing: border-box;
   display: inline-block;
-  margin: 0px;
+  margin: 5px;
 }
 
 .skicontainer .box .imgbox {
   position: relative;
   overflow: hidden;
-  width: 415px;
-  height: 415px;
+  
 }
 
 .skicontainer .box .imgbox img {
-  object-fit: cover;
-  width: 415px;
-  height: 415px;
+  max-width:100%;
   transition: all 0.4s ease-in-out 0.5s; 
 }
 
-.skicontainer .box .description{
+.skicontainer .box:hover .imgbox img {
+  transform: scale(1.1);
+}
+
+.skicontainer .box .description {
   position: absolute;
   top: 10px;
   left: 10px;
   bottom: 10px;
   right: 10px;
+  transform: scaleY(0);
+  transition: transform 1s;
+}
+
+.skicontainer .box:hover .description {
+  transform: scaleY(1);
+}
+
+.skicontainer .box .description .skicontent {
+  position: absolute;
+  top: 50%;
   text-align:left;
-  padding:10px;
+  transform: translateY(-50%);
+  padding: 15px;
+  color: black;
   background-color: rgba(146,96,91,0.5);
   opacity:0;
   transition: all 0.3s ease-in 0.4s;
 }
 
-.skicontainer .box .description h2 {
+.skicontainer .box .description .skicontent h2 {
   opacity: 0;
   margin: 0px;
-  background: transparent;
   padding: 0px;
   font-size: 24px;
   color: black;
@@ -209,37 +222,31 @@ body {
   transition: all 0.3s ease-in-out 0.1s;
 }
 
-.skicontainer .box .description p {
+.skicontainer .box .description .skicontent p {
   opacity: 0;
   margin: 0px;
   padding: 0px;
-  background: transparent;
   font-size: 18px;
   color: black;
   transform: scale(10);
   transition: all 0.3s ease-in-out 0.1s;
 }
 
-.skicontainer .box:hover .imgbox img {
-  transform: scale(1.1);
-  transition-delay: 0s;
-}
-
-.skicontainer .box .description:hover {
+.skicontainer .box:hover .description .skicontent {
   opacity: 1;
   transition-delay: 0s;
 }
 
-.skicontainer .box .description:hover h2{
+.skicontainer .box:hover .description .skicontent h2 {
   opacity: 1;
   transform: scale(1);
-  transition-delay: 0.1s;
+  transition-delay: 0.2s;
 }
 
-.skicontainer .box .description:hover p {
+.skicontainer .box:hover .description .skicontent p {
   opacity:1;
   transform: scale(1);
-  transition-delay:0.2s;
+  transition-delay:0.3s;
 }
 
 #waxintro{
@@ -309,4 +316,3 @@ p {
   font-size: 18px;
   line-height: 28px;
 }
- 
