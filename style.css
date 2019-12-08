@@ -284,13 +284,13 @@ body {
   clear: both;
 }
 
-#whereintro {
+.whereintro {
   margin:70px 0px;
   text-align: left;
   font-size:48px;
 }
 
-#placestitle {
+.placestitle {
   font-size: 45px;
   text-align:center;
   margin:0px;
