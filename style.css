@@ -1,3 +1,4 @@
+  
 * {
   margin: 0;
   padding: 0;
@@ -179,7 +180,7 @@ body {
 
 .skicontainer .box .imgbox img {
   max-width:100%;
-  transition: all 0.4s ease-in-out 0.5s; 
+  transition: transform 1s;
 }
 
 .skicontainer .box:hover .imgbox img {
@@ -192,12 +193,7 @@ body {
   left: 10px;
   bottom: 10px;
   right: 10px;
-  transform: scaleY(0);
-  transition: transform 1s;
-}
-
-.skicontainer .box:hover .description {
-  transform: scaleY(1);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .skicontainer .box .description .skicontent {
@@ -207,46 +203,20 @@ body {
   transform: translateY(-50%);
   padding: 15px;
   color: black;
-  background-color: rgba(146,96,91,0.5);
-  opacity:0;
-  transition: all 0.3s ease-in 0.4s;
 }
 
 .skicontainer .box .description .skicontent h2 {
-  opacity: 0;
   margin: 0px;
   padding: 0px;
   font-size: 24px;
   color: black;
-  transform: scale(10);
-  transition: all 0.3s ease-in-out 0.1s;
 }
 
 .skicontainer .box .description .skicontent p {
-  opacity: 0;
   margin: 0px;
   padding: 0px;
   font-size: 18px;
   color: black;
-  transform: scale(10);
-  transition: all 0.3s ease-in-out 0.1s;
-}
-
-.skicontainer .box:hover .description .skicontent {
-  opacity: 1;
-  transition-delay: 0s;
-}
-
-.skicontainer .box:hover .description .skicontent h2 {
-  opacity: 1;
-  transform: scale(1);
-  transition-delay: 0.2s;
-}
-
-.skicontainer .box:hover .description .skicontent p {
-  opacity:1;
-  transform: scale(1);
-  transition-delay:0.3s;
 }
 
 #waxintro{
