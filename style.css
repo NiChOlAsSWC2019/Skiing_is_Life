@@ -165,10 +165,16 @@ body {
   position: relative;
   width: 405px;
   height: 405px;
-  background: white;
+  background: red;
   box-sizing: border-box;
   display: inline-block;
   margin: 5px;
+}
+
+.skicont .box .imgbox {
+  position: relative;
+  overflow: hidden;
+  
 }
 
 .skicont .box .imgbox img {
