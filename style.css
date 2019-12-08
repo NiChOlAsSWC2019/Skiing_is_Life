@@ -174,10 +174,14 @@ body {
 .skicontainer .box .imgbox {
   position: relative;
   overflow: hidden;
+  width: 415px;
+  height: 415px;
 }
 
 .skicontainer .box .imgbox img {
-  max-width:100%;
+  object-fit: cover;
+  width: 415px;
+  height: 415px;
   transition: all 0.4s ease-in-out 0.5s; 
 }
 
