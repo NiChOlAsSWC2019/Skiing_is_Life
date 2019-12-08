@@ -153,7 +153,7 @@ body {
   background-color:white;
 }
 
-.skicontainer, .bootcontainer {
+.skicontainer, .bootcontainer, .polecontainer {
   width: 830px;
   background-color: azure;
   margin: 40px auto 0px;
@@ -162,7 +162,7 @@ body {
   flex-wrap: wrap;
 }
 
-.skicontainer .box, .bootcontainer .box {
+.skicontainer .box, .bootcontainer .box, .polecontainer .box {
   position: relative;
   width: 395px;
   height: 395px;
@@ -172,23 +172,23 @@ body {
   margin: 10px;
 }
 
-.skicontainer .box .imgbox, .bootcontainer .box .imgbox {
+.skicontainer .box .imgbox, .bootcontainer .box .imgbox, .polecontainer .box .imgbox {
   position: relative;
   overflow: hidden;
 }
 
-.skicontainer .box .imgbox img, .bootcontainer .box .imgbox img {
+.skicontainer .box .imgbox img, .bootcontainer .box .imgbox img, .polecontainer .box .imgbox img {
   object-fit: cover;
   width:395px;
   height: 395px;
   transition: transform 1s;
 }
 
-.skicontainer .box:hover .imgbox img, .bootcontainer .box:hover .imgbox img {
+.skicontainer .box:hover .imgbox img, .bootcontainer .box:hover .imgbox img, .polecontainer .box:hover .imgbox img {
   transform: scale(1.1);
 }
 
-.skicontainer .box .description, .bootcontainer .box .description {
+.skicontainer .box .description, .bootcontainer .box .description, .polecontainer .box .description {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -199,11 +199,11 @@ body {
   transition: transform 1s;
 }
 
-.skicontainer .box:hover .description, .bootcontainer .box:hover .description {
+.skicontainer .box:hover .description, .bootcontainer .box:hover .description, .polecontainer .box:hover .description {
   transform: scaleY(1);
 }
 
-.skicontainer .box .description .skicontent, .bootcontainer .box .description .skicontent {
+.skicontainer .box .description .skicontent, .bootcontainer .box .description .bootcontent, .polecontainer .box .description .polecontent {
   position: absolute;
   top: 50%;
   text-align:left;
@@ -212,14 +212,14 @@ body {
   color: black;
 }
 
-.skicontainer .box .description .skicontent h2, .bootcontainer .box .description .bootcontent h2 {
+.skicontainer .box .description .skicontent h2, .bootcontainer .box .description .bootcontent h2, .polecontainer .box .description. .polecontent h2 {
   margin: 0px;
   padding: 0px;
   font-size: 24px;
   color: black;
 }
 
-.skicontainer .box .description .skicontent p, .bootcontainer .box .description .bootcontent p{
+.skicontainer .box .description .skicontent p, .bootcontainer .box .description .bootcontent p, .polecontainer .box .description .polecontent p{
   margin: 0px;
   padding: 0px;
   font-size: 18px;
