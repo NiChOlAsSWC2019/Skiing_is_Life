@@ -92,7 +92,8 @@ body {
 }
 
 #gearpic1 {
-  margin: 0 auto;
+  display: block;
+  margin: 0px auto;
 }
 
 .section1, .section2, .section3{
