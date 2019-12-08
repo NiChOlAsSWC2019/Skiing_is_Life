@@ -136,6 +136,10 @@ body {
   float:right;
 }
 
+#waxing {
+  float:right;
+}
+
 .content {
   padding: 30px 0px;
   clear: both;
