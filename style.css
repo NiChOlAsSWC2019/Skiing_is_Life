@@ -162,7 +162,7 @@ body {
   flex-wrap: wrap;
 }
 
-.skicontainer .box {
+.skicontainer .box, .bootcontainer .box {
   position: relative;
   width: 395px;
   height: 395px;
@@ -172,24 +172,23 @@ body {
   margin: 10px;
 }
 
-.skicontainer .box .imgbox {
+.skicontainer .box .imgbox, .bootcontainer .box .imgbox {
   position: relative;
   overflow: hidden;
-  
 }
 
-.skicontainer .box .imgbox img {
+.skicontainer .box .imgbox img, .bootcontainer .box .imgbox img {
   object-fit: cover;
   width:395px;
   height: 395px;
   transition: transform 1s;
 }
 
-.skicontainer .box:hover .imgbox img {
+.skicontainer .box:hover .imgbox img, .bootcontainer .box:hover .imgbox img {
   transform: scale(1.1);
 }
 
-.skicontainer .box .description {
+.skicontainer .box .description, .bootcontainer .box .description {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -200,11 +199,11 @@ body {
   transition: transform 1s;
 }
 
-.skicontainer .box:hover .description {
+.skicontainer .box:hover .description, .bootcontainer .box:hover .description {
   transform: scaleY(1);
 }
 
-.skicontainer .box .description .skicontent {
+.skicontainer .box .description .skicontent, .bootcontainer .box .description .skicontent {
   position: absolute;
   top: 50%;
   text-align:left;
@@ -213,14 +212,14 @@ body {
   color: black;
 }
 
-.skicontainer .box .description .skicontent h2 {
+.skicontainer .box .description .skicontent h2, .bootcontainer .box .description .bootcontent h2 {
   margin: 0px;
   padding: 0px;
   font-size: 24px;
   color: black;
 }
 
-.skicontainer .box .description .skicontent p {
+.skicontainer .box .description .skicontent p, .bootcontainer .box .description .bootcontent p{
   margin: 0px;
   padding: 0px;
   font-size: 18px;
