@@ -178,7 +178,9 @@ body {
 }
 
 .skicontainer .box .imgbox img {
-  max-width:100%;
+  object-fit: cover;
+  width:395px;
+  height: 395px;
   transition: transform 1s;
 }
 
