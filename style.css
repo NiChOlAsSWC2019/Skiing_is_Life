@@ -312,7 +312,8 @@ body {
  width: 100vw;
  position: relative;
  margin-left: -50vw;
- height: auto;
+ height: 400px;
+ object-fit:cover;
  left: 50%;
  margin-top: 50px;
 }
