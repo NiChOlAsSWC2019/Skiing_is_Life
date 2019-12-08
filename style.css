@@ -97,6 +97,11 @@ body {
   background-color:black;
 }
 
+#gearpic1center {
+  display: block;
+  margin 0px auto;
+}
+
 .section1, .section2, .section3{
   width: 830px;
   height: auto;
