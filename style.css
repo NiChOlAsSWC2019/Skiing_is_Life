@@ -35,11 +35,6 @@
   vertical-align: middle;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 36px;
-  font-weight: 200;
-}
-
-.logos h1 span {
-  font-weight: 200;
 }
 
 .navigation {
@@ -60,7 +55,7 @@
   height: 100%;
   display: table;
   float: left;
-  padding: 0px 20px;
+  padding: 0px 17px;
 }
 
 #whiteh, #whiteg, #whitep, #whitem, #whiteah, #whiteagp {
@@ -73,7 +68,7 @@
   height: 60px;
   color: #c5c5c5;
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .container {
