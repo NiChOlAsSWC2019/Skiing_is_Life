@@ -150,19 +150,25 @@ body {
 
 #waxing {
   float:right;
-  background-color:black;
+  background-color:white;
 }
 
 #waxing:after{
   content: "";
   display: block;
-  clear: both;
+  clear: right;
 }
 
 #gearpics {
   display:block;
   height: auto;
-  margin: 80px 0px;
+  margin: 35px 0px 80px 0px;
+  text-align:center;
+}
+
+#gearpicshead {
+  margin: 0px 0px;
+  text-align: center;
 }
 
 .xcgheader {
