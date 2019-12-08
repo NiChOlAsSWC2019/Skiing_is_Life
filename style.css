@@ -186,13 +186,13 @@ body {
   transform: scale(1.1);
 }
 
-.skicont .box .details {
+.skicontainer .box .description {
   position: absolute;
   top: 10px;
   left: 10px;
   bottom: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .skicontainer .box .description .skicontent {
