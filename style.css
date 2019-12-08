@@ -63,7 +63,7 @@
   padding: 0px 20px;
 }
 
-#whiteh, #whiteg, #whitep, #whitem{
+#whiteh, #whiteg, #whitep, #whitem, #whiteah{
   color: white;
 }
 
@@ -136,7 +136,7 @@ body {
   float: left;
 }
 
-#indexpic1 {
+.pic1 {
   display: block;
   width: 440px;
   margin: 59px 0px;
