@@ -174,7 +174,6 @@ body {
 .skicontainer .box .imgbox {
   position: relative;
   overflow: hidden;
-  
 }
 
 .skicontainer .box .imgbox img {
@@ -184,6 +183,7 @@ body {
 
 .skicontainer .box:hover .imgbox img {
   transform: scale(1.1);
+  transition-delay: 0s;
 }
 
 .skicontainer .box .description {
@@ -192,19 +192,12 @@ body {
   left: 10px;
   bottom: 10px;
   right: 10px;
-  transform: scaleY(0);
-  transition: transform 1s;
-}
-
-.skicontainer .box:hover .description {
-  transform: scaleY(1);
 }
 
 .skicontainer .box .description .skicontent {
   position: absolute;
   top: 50%;
   text-align:left;
-  transform: translateY(-50%);
   padding: 15px;
   color: black;
   background-color: rgba(146,96,91,0.5);
@@ -240,13 +233,13 @@ body {
 .skicontainer .box:hover .description .skicontent h2 {
   opacity: 1;
   transform: scale(1);
-  transition-delay: 0.2s;
+  transition-delay: 0.1s;
 }
 
 .skicontainer .box:hover .description .skicontent p {
   opacity:1;
   transform: scale(1);
-  transition-delay:0.3s;
+  transition-delay:0.2s;
 }
 
 #waxintro{
