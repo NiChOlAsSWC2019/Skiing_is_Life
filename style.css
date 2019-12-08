@@ -153,10 +153,18 @@ body {
   background-color:white;
 }
 
+.xcgheader {
+  display:block;
+  background-color:azure;
+  height:100%;
+  margin: 0px;
+  padding: 100px 0px;
+}
+
 .skicontainer, .bootcontainer, .polecontainer {
   width: 830px;
   background-color: azure;
-  margin: 40px auto 0px;
+  margin: 0px auto 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
