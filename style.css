@@ -122,7 +122,14 @@ body {
 }
 
 #alpinecat {
-  
+  color: #222;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 30px 0px;
+}
+
+#alpinecat li {
+  padding: 10px 0px;
 }
 
 #sizingtables {
@@ -302,14 +309,6 @@ body {
   width: 830px;
   height: auto;
   margin:100px 0px;
-}
-
-.placebox .placetitle {
-  
-}
-
-.placebox .placedesc {
-  
 }
 
 .placebox .placepic {
