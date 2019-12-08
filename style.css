@@ -94,7 +94,7 @@ body {
 #gearpic1 {
   display: block;
   margin: 0px auto;
-  background-color:red;
+  background-color:black;
 }
 
 .section1, .section2, .section3{
@@ -209,5 +209,4 @@ p {
   font-size: 18px;
   line-height: 28px;
 }
-  
-  
+ 
