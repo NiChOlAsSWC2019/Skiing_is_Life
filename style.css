@@ -293,8 +293,7 @@ body {
 .placebox{
   width: 830px;
   height: auto;
-  margin:50px 0px;
-  
+  margin:100px 0px;
 }
 
 .placebox .placetitle {
@@ -305,8 +304,8 @@ body {
   
 }
 
-.placepic {
-
+.placebox .placepic {
+  display:block;
 }
 
 .placepic .fullwidth {
@@ -314,8 +313,8 @@ body {
  position: relative;
  margin-left: -50vw;
  height: auto;
- margin-top: 100px;
  left: 50%;
+ margin-top: 50px;
 }
 #contactlinks{
   height: 1000px;
