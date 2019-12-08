@@ -149,6 +149,26 @@ body {
   background-color:white;
 }
 
+.skicont {
+  width: 830px;
+  background-color: white;
+  margin: 40px auto 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skicont .box {
+  position: relative;
+  width: 415px;
+  height: 415px;
+  background: white;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  
+}
+
 #waxintro{
   padding: 0px 13px 13px 0px;
 }
