@@ -230,7 +230,7 @@ body {
   transition-delay: 0s;
 }
 
-.skicontainer .box .description:hover {
+.skicontainer .box .description:hover h2{
   opacity: 1;
   transform: scale(1);
   transition-delay: 0.1s;
