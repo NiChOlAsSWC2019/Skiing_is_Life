@@ -163,12 +163,12 @@ body {
 
 .skicont .box {
   position: relative;
-  width: 415px;
-  height: 415px;
+  width: 405px;
+  height: 405px;
   background: white;
   box-sizing: border-box;
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
 }
 
 .skicont .box .imgbox img {
