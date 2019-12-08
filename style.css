@@ -91,6 +91,10 @@ body {
   text-indent: 30px;
 }
 
+#gearpic1 {
+  margin: 0 auto;
+}
+
 .section1, .section2, .section3{
   width: 830px;
   height: auto;
