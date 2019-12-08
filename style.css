@@ -109,6 +109,14 @@ body {
   clear: both;
 }
 
+#sizingtables {
+  display:block
+}
+
+#tright {
+  float:right;
+  margin: 25% 0px;
+}
 
 #whatiscc {
   width: 380px;
