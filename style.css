@@ -288,6 +288,8 @@ body {
 #placestitle {
   font-size: 52px;
   text-align:center;
+  margin:0px;
+  padding: 0px;
 }
 
 .placebox{
