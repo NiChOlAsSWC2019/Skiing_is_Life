@@ -259,6 +259,10 @@ body {
   color: black;
 }
 
+#fischerimg {
+  object-position:50% 60%;
+}
+
 #waxintro{
   padding: 0px 13px 13px 0px;
 }
