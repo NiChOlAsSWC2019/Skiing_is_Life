@@ -333,6 +333,14 @@ body {
   object-position:50% 75%;
 }
 
+.objectpos2 {
+  object-position: 50% 80%;
+}
+
+.objectpos3 {
+  object-position: 50% 20%;
+}
+
 #contactlinks{
   height: 1000px;
 }
