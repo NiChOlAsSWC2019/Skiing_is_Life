@@ -384,7 +384,11 @@ p {
 }
 
 a {
-  color:black;
+  color:blue;
   padding: 0px 10px;
-  font-size: 18px
+  font-size: 24px;
+}
+
+#external {
+  margin: 40px 0px;
 }
