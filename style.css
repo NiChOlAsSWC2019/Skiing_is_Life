@@ -329,6 +329,10 @@ body {
   transform: scale(1);
 }
 
+.objectpos {
+  object-position:50% 75%;
+}
+
 #contactlinks{
   height: 1000px;
 }
