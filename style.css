@@ -382,3 +382,9 @@ p {
   font-size: 18px;
   line-height: 28px;
 }
+
+a {
+  color:black;
+  padding: 0px 10px;
+  font-size: 18px
+}
